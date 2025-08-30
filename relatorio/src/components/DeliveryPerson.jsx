@@ -1,6 +1,6 @@
 import './DeliveryPerson.css'
 
-import Input from "./Input";
+import Input from "./input/Input";
 
 const DeliveryPerson = () => {
     return (
