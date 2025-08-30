@@ -1,4 +1,4 @@
-import DeliveryPerson from "../DeliveryPerson";
+import DeliveryPerson from "../deliveryPerson/DeliveryPerson";
 
 import "./Main.css";
 
