@@ -1,4 +1,4 @@
-import Button from "./Button";
+import DeliveryPerson from "./DeliveryPerson";
 
 import "./Main.css";
 
@@ -10,8 +10,7 @@ const Main = () => {
                 <section>
                     <h2>Entregadores</h2>
                     <form>
-                        <Button id="delivery-person-name" type="text" label="Nome" required/>
-                        {/* {id, classNameDiv, classNameInput, classNameLabel, type = "text", label, ...rest} */}
+                        <DeliveryPerson />
                     </form>
                 </section>
             </div>

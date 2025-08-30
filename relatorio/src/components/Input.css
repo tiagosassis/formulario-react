@@ -1,0 +1,46 @@
+input{
+    outline: none;
+    font-size: 1em;
+    background-color: var(--color-background-input);
+    border-radius: var(--border-radius-sm);
+}
+
+.container-relative {
+    position: relative;
+}
+
+.float-label{
+    position: absolute;
+    top: 0;
+    left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="number"] {
+    /* Ajusta a aparência no Firefox */
+    appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    /* Remove spinners em navegadores baseados em WebKit (Chrome, Safari) */
+    -webkit-appearance: none;
+}
+
+/* .float-input:focus ~ .float-label, .float-input:valid ~ .float-label{ /*animação do label flutuar sobre o input quando está em foco*/
+/*    top: -21px;
+    font-size: 0.8em;
+}

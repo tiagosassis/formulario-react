@@ -5,11 +5,14 @@
 :root {
     --color-text: #373737;
     --color-background-body: #E3EBEF;
+    --color-background-input: #F2F5F4;
 
     /* 🔲 Bordas arredondadas */
     --border-radius-sm: 4px;
     --border-radius-md: 8px;
     --border-radius-lg: 16px;
+
+    
 }
 
 * {
